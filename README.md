@@ -1,2 +1,17 @@
 # run-maven-archetype-quickstart
-Simple script I use for compiling and running maven-archetype-quickstart java apps
+
+### Usage
+* Put ***run.sh*** to project parent directory
+* Make it executable
+```.sh
+chmod +x run.sh
+```
+* Run it without arguments
+```.sh
+./run.sh
+```
+
+* Run it with arguments
+```.sh
+./run.sh target/java-example-1.0-SNAPSHOT.jar com.farhad.App
+```
