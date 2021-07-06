@@ -4,7 +4,7 @@
 * Put ***run.sh*** to project parent directory
 * Make it executable
 ```.sh
-chmod +x run.sh
+chmod 755 run.sh
 ```
 * Run it without arguments
 ```.sh
